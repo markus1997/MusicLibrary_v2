@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MusicLibrary_v2" />
+        <module name="API" />
+        <module name="DTO" />
+        <module name="Server" />
+        <module name="Service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="MusicLibrary_v2" target="1.5" />
+      <module name="API" target="1.8" />
+      <module name="DTO" target="1.8" />
+      <module name="MusicLibrary_v2" target="1.8" />
+      <module name="Server" target="1.8" />
+      <module name="Service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
