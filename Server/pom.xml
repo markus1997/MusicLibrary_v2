@@ -11,5 +11,12 @@
 
     <artifactId>Server</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>eu.schreiber</groupId>
+            <artifactId>API</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>

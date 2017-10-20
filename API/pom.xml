@@ -13,6 +13,11 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>eu.schreiber</groupId>
+            <artifactId>DTO</artifactId>
+        </dependency>
+
         <!-- YouTube Data V3 support -->
         <dependency>
             <groupId>com.google.apis</groupId>

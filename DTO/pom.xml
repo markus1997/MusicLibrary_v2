@@ -11,5 +11,47 @@
 
     <artifactId>DTO</artifactId>
 
+    <dependencies>
+
+        <!-- YouTube Data V3 support -->
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-youtube</artifactId>
+        </dependency>
+
+        <!-- Required for any code that makes calls to the YouTube Analytics API -->
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-youtubeAnalytics</artifactId>
+        </dependency>
+
+        <!-- Required for any code that makes calls to the YouTube Reporting API -->
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-youtubereporting</artifactId>
+        </dependency>
+
+        <!-- This dependency is only used for the Topics API sample, which requires the Jackson JSON parser -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.http-client</groupId>
+            <artifactId>google-http-client-jackson2</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.oauth-client</groupId>
+            <artifactId>google-oauth-client-jetty</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.collections</groupId>
+            <artifactId>google-collections</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>
